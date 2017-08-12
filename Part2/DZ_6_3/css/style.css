@@ -1,0 +1,10 @@
+table{
+	padding: 20px;
+	background-color: #f7f8f9;
+}
+*{
+	text-align: center;
+}
+th,td{
+	border-bottom: 1px solid grey;
+}

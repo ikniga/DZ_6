@@ -1,0 +1,15 @@
+*{
+    margin: 20px;
+}
+.block {
+    background: black;
+    position: relative;
+    width: 100px; height: 50px;
+}
+.block::before {
+    content: ''; 
+    position: absolute;
+    right: 100px; top: 15px;
+    border: 10px solid transparent;
+    border-right: 20px solid black;
+  }

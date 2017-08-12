@@ -1,0 +1,19 @@
+.first{
+	background: green;
+}
+.second{
+	background: violet;
+}
+.first:hover{
+	background: red;
+}
+.second:hover{
+	background: gold;
+}
+
+.first:active{
+	background: yellow;
+}
+.second:active{
+	background: brown;
+}

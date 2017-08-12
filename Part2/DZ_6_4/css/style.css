@@ -1,0 +1,37 @@
+table{
+	padding: 20px;
+	background-color: #f7f8f9;
+}
+table:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+}
+*{
+	text-align: left;
+}
+.main{
+	padding: 5px;
+	color: red;
+}
+thead{
+	padding: 15px;
+	border-bottom: 1px solid grey;
+}
+.footer{
+	text-align: right;
+}
+button{
+	background: red;
+	color: white;
+	font-weight: bold;
+	border: red;
+	margin: 2px;
+}
+.bag{
+	height: 100px;
+	text-align: center;
+	color: red;
+	font-style: italic;
+}
