@@ -8,21 +8,26 @@
  <body>
   <table 
   width="800" height="250" cellspacing="0">
+  <thead class="thead">
   <tr>
-    <th>Название</th>
-    <th>Кол-во</th>
-    <th>Цена</th>
-    <th>Скидка</th>
-    <th>Итого</th>
-  </tr>
+    <th class="long">Название</th>
+    <th class="short">Кол-во</th>
+    <th class="short">Цена</th>
+    <th class="short">Скидка</th>
+    <th class="long"></th>
+    <th class="short">Итого</th>
+  </tr> 
+  </thead>
   <tr>
     <td class="main">Медведь девочка</td> 
     <td>1 шт.</td>
     <td>300р.</td> 
     <td>50%</td>
-    <button>+</button>
-    <button>-</button>
-    <button>УДАЛИТЬ</button>
+    <td>
+    <button class="small">+</button>
+    <button class="small">-</button>
+    <button class="big">УДАЛИТЬ</button>
+    </td>
     <td>300р.</td>
   </tr>
   <tr>
@@ -30,9 +35,11 @@
     <td>1 шт.</td>
     <td>100р.</td> 
     <td>&mdash;</td>
-    <button>+</button>
-    <button>-</button>
-    <button>УДАЛИТЬ</button>
+    <td>
+    <button class="small">+</button>
+    <button class="small">-</button>
+    <button class="big">УДАЛИТЬ</button>
+    </td>
     <td>100р.</td>
   </tr>
   <tr>
@@ -40,9 +47,11 @@
     <td>1 шт.</td>
     <td>10 000р.</td> 
     <td>&mdash;</td>
-    <button>+</button>
-    <button>-</button>
-    <button>УДАЛИТЬ</button>
+    <td>
+    <button class="small">+</button>
+    <button class="small">-</button>
+    <button class="big">УДАЛИТЬ</button>
+    </td>
     <td>10 000р.</td>
   </tr>
   <tr>
@@ -50,18 +59,18 @@
     <td>1 шт.</td>
     <td>300р.</td> 
     <td>&mdash;</td>
-    <button>+</button>
-    <button>-</button>
-    <button>УДАЛИТЬ</button>
+    <td>
+    <button class="small">+</button>
+    <button class="small">-</button>
+    <button class="big">УДАЛИТЬ</button>
+    </td>
     <td>300р.</td>
-  </tr>
-<tfoot>
-  <td class="footer" colspan="5">4 шт. на сумму: 10 700р.</td>
-<tr>
-  <td class="footer" colspan="5">Сумма без скидки: 11 000р. &mdash;</td>
-</tr>
-<td class="bag" colspan="5">перейти в корзину&rarr;</td>
-</tfoot>
+  </tr> 
   </table>
+  <p>4 шт. на сумму: <span>10 550грн.</span><br>
+  <span>Сумма без скидки: 10 700грн.&minus;</span>
+  </p>
+  <button class="GoTo_Basket">перейти в корзину &rarr;</button>
+  <button class="close">&Chi;</button>
  </body>
 </html>
